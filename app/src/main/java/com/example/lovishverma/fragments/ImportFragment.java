@@ -18,7 +18,7 @@ public class ImportFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_import,container,true);
+        View rootView = inflater.inflate(R.layout.fragment_import,container,false);
 
 
         return rootView;
